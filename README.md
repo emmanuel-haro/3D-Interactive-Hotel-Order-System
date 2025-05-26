@@ -47,9 +47,6 @@ Develop a **polite, responsive, and engaging 3D hotel ordering website** that al
 - Smooth transitions, animated buttons, and feedback messages
 - Large, touch-friendly controls for ease of use
 
-## Prompt Summary
-
-> **Build a 3D website for hotels in Kenya to simplify and improve the process of taking orders from clients. The platform should use polite, friendly language and include an interactive user interface where customers can browse a hotel’s menu, select items, and submit orders easily. Emphasize the use of Wine (#552834) and White Smoke (#F7F4F4) for visual aesthetics. Technologies to be used include HTML, JavaScript, style.css, and minimal Python for backend functionality. The website should be responsive, fast, and designed to improve hospitality service.**
 
 ---
 
