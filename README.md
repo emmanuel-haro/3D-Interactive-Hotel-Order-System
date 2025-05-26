@@ -61,6 +61,3 @@ Develop a **polite, responsive, and engaging 3D hotel ordering website** that al
 
 Feel free to fork the project and contribute to feature development, language translations, or UI enhancements.
 
-## License
-
-MIT License
