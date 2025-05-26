@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard - 3D Hotel Order System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="staff-body">
+    <header>
+        <div class="container">
+            <h1>Staff Dashboard</h1>
+            <div class="view-toggle">
+                <button id="guestViewBtn">Guest View</button>
+                <button id="staffViewBtn" class="active">Staff Dashboard</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="staff-dashboard">
+        <div class="container">
+            <h2>Active Orders</h2>
+            
+            <div class="dashboard-filters">
+                <button class="filter-btn active" data-filter="all">All Orders</button>
+                <button class="filter-btn" data-filter="pending">Pending</button>
+                <button class="filter-btn" data-filter="preparing">Preparing</button>
+                <button class="filter-btn" data-filter="ready">Ready</button>
+                <button class="filter-btn" data-filter="served">Served</button>
+            </div>
+            
+            <div id="ordersContainer" class="orders-container">
+                <!-- Orders will be dynamically populated here -->
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Smart Hotel Order System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="staff.js"></script>
+</body>
+</html>
